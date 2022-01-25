@@ -160,5 +160,51 @@ i {
     color:#676767;
 }
 
+.course-section {
+    background-color: #F7F8FA;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 
 
+}
+
+.courses {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+.courses h5{
+    font-size: 20px;
+    font-weight: 600;;
+}
+
+
+.courses a{
+    text-decoration: none;
+    text-align: center;
+    color:#27895d;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.card {
+    transform: translateY(20px);
+    transition: 0.4s;
+}
+.card:hover {
+      /* transform: translate(0, 20px); */
+
+      transform: translateY(0);
+  }
